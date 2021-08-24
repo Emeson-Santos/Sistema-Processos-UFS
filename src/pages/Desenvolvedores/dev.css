@@ -1,11 +1,4 @@
-/* .container{
-    display: flex;
-    background-color: #f8f8f8;
-    border-radius: 5px;
-    padding: .8em;
-    align-items: center;
-    margin-bottom: 1em;
-} */
+
 .container {
   display: flex;
   flex-direction: column;
@@ -20,7 +13,6 @@
   border-radius: 5px;
   
 }
-
 
 .text-center{
     margin-top: 10px;

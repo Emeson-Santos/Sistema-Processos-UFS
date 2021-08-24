@@ -25,9 +25,9 @@ export default function Desenvolvedores(){
             <h3>colocar nome, email, facebook e titwer</h3> */}
             <div className="content">
                 <Title name="Desenvolvedores">
-                   <strong>
-                   <FiInfo size={17}/>
-                   </strong>
+                 
+                   <FiInfo size={17} color='#000'/>
+                   
                 </Title>
 
                 <div className="container">
