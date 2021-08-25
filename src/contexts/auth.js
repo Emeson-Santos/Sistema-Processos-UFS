@@ -8,9 +8,9 @@ function AuthProvider({ children }){
 
 
     return(
-       <AutContext.AuthProvider value={{ name }}>
+       <AutContext.Provider value={{ name }}>
            {children}
-       </AutContext.AuthProvider>
+       </AutContext.Provider>
     )
 }
 

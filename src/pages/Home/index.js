@@ -7,11 +7,15 @@ import graduacaoProcessos from '../../assets/process-accept-icon.png';
 import mestradoProcessos from '../../assets/process-accept-icon.png';
 import posGraduacao from '../../assets/process-accept-icon.png';
 import doutorado from '../../assets/process-accept-icon.png';
+// import notify from '../../pages/Notify';
+// import {toast} from 'react-toastify';
 
-
-import { FiSettings } from "react-icons/fi";
+// import { FiSettings } from "react-icons/fi";
 
 export default function Home(){
+
+// const notifY = ()=> toast.info('Modulo ainda em contrução!!!');
+
     return(
         <div>
             <Header/>
@@ -20,8 +24,7 @@ export default function Home(){
             <h2>colocar a imagem de cada um redonda</h2>
             <h3>colocar nome, email, facebook e titwer</h3> */}
             <div className="content">
-                <Title name="Categorias">
-                                     
+                <Title name="Categorias">                 
                    {/* <FiInfo size={17} color='#000'/> */}
                    
                 </Title>
@@ -49,13 +52,14 @@ export default function Home(){
                             
                         </div>
                         <div className="col-lg-4">
-                            <div className="categorias">
+                            <div className="categorias" >
                                 {/* inserir a imagem */}
                                 <img src={graduacaoProcessos} alt="processos graduacao"/>
                                 {/* o nome do dev */}
-                                <Link to="#">
+                                <Link to="/notify" >                                    
                                     <h4>Graduação</h4> 
                                 </Link>
+                                
                                                               
                             </div>
                             
@@ -65,7 +69,7 @@ export default function Home(){
                                 {/* inserir a imagem */}
                                 <img src={posGraduacao} alt="processos de pos graduação"/>
                                 {/* o nome do dev */}
-                                <Link to="#">
+                                <Link to="/notify">
                                     <h4>Pós graduação</h4>
                                 </Link>                               
                                
@@ -77,7 +81,7 @@ export default function Home(){
                                 {/* inserir a imagem */}
                                 <img src={mestradoProcessos} alt="processos de mestrado"/>
                                 {/* o nome do dev */}
-                                <Link to="#">
+                                <Link to="/notify">
                                 <h4>Mestrado</h4>
                                 </Link>
                                 
@@ -89,7 +93,7 @@ export default function Home(){
                                     {/* inserir a imagem */}
                                     <img src={doutorado} alt="processos de mestrado"/>
                                     {/* o nome do dev */}
-                                    <Link to="">
+                                    <Link to="/notify">
                                     <h4>Doutorado</h4>
                                     </Link>
                                     
