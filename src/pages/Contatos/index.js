@@ -12,6 +12,8 @@ import { FiMail } from 'react-icons/fi';
 import "./contato.css";
 
 export default function Contato(){
+
+  
     return(
         <div>
             <Header/>
@@ -21,7 +23,7 @@ export default function Contato(){
                 </Title>
                     <div className="container">
                         <div>
-                            <h2 className="text-uppercase">Olá! com quem voçê deseja falar?</h2>
+                            <h2 className="text-uppercase">Olá! com quem deseja falar?</h2>
                             <h3 className="text-muted"><i>Podemos te ajudar em algo?</i></h3>
                         </div>
                         
@@ -33,9 +35,9 @@ export default function Contato(){
                                 {/* o nome do dev */}
                                 <h4>Emeson Santos</h4>
                                 <p className="text-muted">Front-End</p>
-                                    <Link to="#">
+                                    <Link to="/email" >
                                         <span>
-                                            <FiMail size={20}/>
+                                            <FiMail size={20} />
                                         </span>
                                     </Link>                                   
                             </div>
@@ -48,7 +50,7 @@ export default function Contato(){
                                 {/* o nome do dev */}
                                 <h4>Paulo Vitor dos Santos</h4>
                                 <p className="text-muted">Back-End</p>
-                                    <Link to="#">
+                                    <Link to="/email">
                                         <span>
                                             <FiMail size={20}/>
                                         </span>
@@ -63,7 +65,7 @@ export default function Contato(){
                                 {/* o nome do dev */}
                                 <h4>Prof. Dr. Marcos Dósea</h4>
                                 <p className="text-muted">Oriêntador</p>
-                                    <Link to="#">
+                                    <Link to="/email">
                                         <span>
                                             <FiMail size={20}/>
                                         </span>
@@ -78,7 +80,7 @@ export default function Contato(){
                                 {/* o nome do dev */}
                                 <h4>Prof. Dr. Raphael Pereira</h4>
                                 <p className="text-muted">Orientador</p>
-                                    <Link to="#">
+                                    <Link to="/email">
                                         <span>
                                             <FiMail size={20}/>
                                         </span>

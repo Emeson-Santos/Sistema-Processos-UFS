@@ -5,6 +5,7 @@ import Processos from '../pages/Processos';
 import Desenvolvedores from '../pages/Desenvolvedores';
 import Sobre from '../pages/Sobre';
 import Contatos from '../pages/Contatos';
+import Email from '../pages/Email';
 import Notify from '../pages/Notify';
 
 
@@ -18,7 +19,9 @@ export default function Routes(){
             <Route exact path="/categoria" component={Home}/>
             <Route exact path="/desenvolvedores" component={Desenvolvedores}/>
             <Route exact path="/sobre" component={Sobre}/>
-            <Route exact path="/contatos" component={Contatos}/>            
+            <Route exact path="/contatos" component={Contatos}/> 
+            <Route exact path="/email" component={Email}/>
+                       
             
 
             <Route exact path='/notify' component={Notify}/>
