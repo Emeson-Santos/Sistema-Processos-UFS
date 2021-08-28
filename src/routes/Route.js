@@ -6,6 +6,9 @@ import Desenvolvedores from '../pages/Desenvolvedores';
 import Sobre from '../pages/Sobre';
 import Contatos from '../pages/Contatos';
 import Email from '../pages/Email';
+import EmailDosea from '../pages/Email/emailDosea';
+import EmailRaphael from '../pages/Email/emailRaphael';
+import EmailPauloVitor from '../pages/Email/emailPauloVitor';
 import Notify from '../pages/Notify';
 
 
@@ -21,6 +24,10 @@ export default function Routes(){
             <Route exact path="/sobre" component={Sobre}/>
             <Route exact path="/contatos" component={Contatos}/> 
             <Route exact path="/email" component={Email}/>
+            <Route exact path="/emailDosea" component={EmailDosea}/>
+            <Route exact path="/emailRaphael" component={EmailRaphael}/>
+            <Route exact path="/emailPauloVitor" component={EmailPauloVitor}/>
+            
                        
             
 
