@@ -50,7 +50,7 @@ export default function Contato(){
                                 {/* o nome do dev */}
                                 <h4>Paulo Vitor dos Santos</h4>
                                 <p className="text-muted">Back-End</p>
-                                    <Link to="/email">
+                                    <Link to="/emailPauloVitor">
                                         <span>
                                             <FiMail size={20}/>
                                         </span>
@@ -65,7 +65,7 @@ export default function Contato(){
                                 {/* o nome do dev */}
                                 <h4>Prof. Dr. Marcos Dósea</h4>
                                 <p className="text-muted">Oriêntador</p>
-                                    <Link to="/email">
+                                    <Link to="/emailDosea">
                                         <span>
                                             <FiMail size={20}/>
                                         </span>
@@ -80,7 +80,7 @@ export default function Contato(){
                                 {/* o nome do dev */}
                                 <h4>Prof. Dr. Raphael Pereira</h4>
                                 <p className="text-muted">Orientador</p>
-                                    <Link to="/email">
+                                    <Link to="/emailRaphael">
                                         <span>
                                             <FiMail size={20}/>
                                         </span>
