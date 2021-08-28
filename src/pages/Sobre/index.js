@@ -2,6 +2,11 @@ import React from 'react';
 import './sobre.css';
 import Header from '../../components/Header';
 import Title from '../../components/Title';
+import Comeco from '../../assets/img-Sobre/1.png';
+import Nascimento from '../../assets/img-Sobre/2.png';
+import Transicao from '../../assets/img-Sobre/3.png';
+import Expancao from '../../assets/img-Sobre/4.png';
+
 
 export default function Sobre(){
     return(
@@ -19,7 +24,7 @@ export default function Sobre(){
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src={Comeco} alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2020</h4>
@@ -29,7 +34,7 @@ export default function Sobre(){
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src={Nascimento} alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2020</h4>
@@ -39,7 +44,7 @@ export default function Sobre(){
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src={Transicao} alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2020</h4>
@@ -49,7 +54,7 @@ export default function Sobre(){
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src={Expancao} alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2020</h4>
