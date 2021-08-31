@@ -47,21 +47,22 @@ export default function Desenvolvedores(){
                                 {/* o nome do dev */}
                                 <h4>Emeson Santos</h4>
                                 <p className="text-muted">Front-End</p>
-                                    <Link to="#">
+                                    <a target="_blank" rel="noreferrer" href="https://twitter.com/Emesoneso">
                                         <span>
                                             <FiTwitter size={20}/>
-                                        </span>
-                                    </Link>
-                                    <Link to="#">
+                                        </span> 
+                                    </a>
+                                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com/emeson.santos.3">
                                         <span>
                                             <FiFacebook size={20}/>
-                                        </span>                                        
-                                    </Link>
-                                    <Link to="#">
+                                        </span> 
+                                    </a>                                     
+                                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/emesonsantosti/">
                                         <span>
-                                            <FiLinkedin size={20}/>
-                                        </span>                                        
-                                    </Link>
+                                        <FiLinkedin size={20}/>
+                                        </span> 
+                                    </a>   
+                                   
                             </div>
                             
                         </div>
@@ -72,21 +73,22 @@ export default function Desenvolvedores(){
                                 {/* o nome do dev */}
                                 <h4>Paulo Vitor dos Santos</h4>
                                 <p className="text-muted">Back-End</p>
-                                    <Link to="#">
+                                
+                                    <a target="_blank" rel="noreferrer" href="/#">
                                         <span>
                                             <FiTwitter size={20}/>
-                                        </span>
-                                    </Link>
-                                    <Link to="#">
+                                        </span> 
+                                    </a>
+                                    <a target="_blank" rel="noreferrer" href="/#">
                                         <span>
                                             <FiFacebook size={20}/>
-                                        </span>                                        
-                                    </Link>
-                                    <Link to="#">
+                                        </span> 
+                                    </a>                                     
+                                    <a target="_blank" rel="noreferrer" href="/#">
                                         <span>
-                                            <FiLinkedin size={20}/>
-                                        </span>                                        
-                                    </Link>
+                                        <FiLinkedin size={20}/>
+                                        </span> 
+                                    </a>   
                             </div>
                             
                         </div>
@@ -97,21 +99,22 @@ export default function Desenvolvedores(){
                                 {/* o nome do dev */}
                                 <h4>Prof. Dr. Marcos Dósea</h4>
                                 <p className="text-muted">Oriêntador</p>
-                                    <Link to="#">
+                               
+                                    <a target="_blank" rel="noreferrer" href="https://twitter.com/marcosdosea">
                                         <span>
                                             <FiTwitter size={20}/>
-                                        </span>
-                                    </Link>
-                                    <Link to="#">
+                                        </span> 
+                                    </a>
+                                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com/marcos.dosea">
                                         <span>
                                             <FiFacebook size={20}/>
-                                        </span>                                        
-                                    </Link>
-                                    <Link to="#">
+                                        </span> 
+                                    </a>                                     
+                                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/marcos-dosea-48485817/">
                                         <span>
-                                            <FiLinkedin size={20}/>
-                                        </span>                                        
-                                    </Link>
+                                        <FiLinkedin size={20}/>
+                                        </span> 
+                                    </a>   
                             </div>
                             
                         </div>
@@ -122,21 +125,22 @@ export default function Desenvolvedores(){
                                 {/* o nome do dev */}
                                 <h4>Prof. Dr. Raphael Pereira</h4>
                                 <p className="text-muted">Orientador</p>
-                                    <Link to="#">
+                                
+                                    <a target="_blank" rel="noreferrer" href="/#">
                                         <span>
                                             <FiTwitter size={20}/>
-                                        </span>
-                                    </Link>
-                                    <Link to="#">
+                                        </span> 
+                                    </a>
+                                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com/raphaelcomputacao">
                                         <span>
-                                            <FiFacebook size={20} />
-                                        </span>                                        
-                                    </Link>
-                                    <Link to="#">
+                                            <FiFacebook size={20}/>
+                                        </span> 
+                                    </a>                                     
+                                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/raphaeloliveiraifs/">
                                         <span>
-                                            <FiLinkedin size={20}/>
-                                        </span>                                        
-                                    </Link>
+                                        <FiLinkedin size={20}/>
+                                        </span> 
+                                    </a>   
                             </div>
                             
                         </div>
