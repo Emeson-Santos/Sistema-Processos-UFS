@@ -1,4 +1,5 @@
 import React from 'react';
+import './contato.css';
 import Header from '../../components/Header';
 import Title from '../../components/Title';
 import { Link } from 'react-router-dom';
@@ -6,6 +7,7 @@ import imgEmeson from '../../assets/img-Desenvolvedores/Emeson.png';
 import imgPauloVitor from '../../assets/img-Desenvolvedores/Paulo vitor.png';
 import imgDosea from '../../assets/img-Desenvolvedores/prof Dosea.png';
 import imgRaphael from '../../assets/img-Desenvolvedores/prof Raphael.png';
+
 
 
 import { FiMail } from 'react-icons/fi';

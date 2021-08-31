@@ -1,10 +1,9 @@
 import React from 'react';
+import './email.css';
 import { FiMail } from 'react-icons/fi';
  import Header from '../../components/Header';
 import Title from '../../components/Title';
 import emailjs from "emailjs-com";
-
-import './email.css';
 
 
 export default function Email(){   
@@ -34,7 +33,7 @@ export default function Email(){
                         <input type="text" name="name" placeholder="Por favor, digite seu nome..."/>
 
                         <label htmlFor="Email">Email: </label>
-                        <input type="text" name="email" placeholder="E-mail de destino..." />
+                        <input type="text" name="email" placeholder="Por favor, digite seu e-mail..." />
                             
                             
                         {/* <label htmlFor="anexo">Anexo</label>
