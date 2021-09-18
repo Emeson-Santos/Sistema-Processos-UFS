@@ -10,7 +10,7 @@ import doutorado from '../../assets/process-accept-icon.png';
 // import notify from '../../pages/Notify';
 // import {toast} from 'react-toastify';
 
-// import { FiSettings } from "react-icons/fi";
+import { FiInfo } from "react-icons/fi";
 
 export default function Home(){
 
@@ -25,8 +25,7 @@ export default function Home(){
             <h3>colocar nome, email, facebook e titwer</h3> */}
             <div className="content">
                 <Title name="Categorias">                 
-                   {/* <FiInfo size={17} color='#000'/> */}
-                   
+                   <FiInfo size={17} color='#000'/>                   
                 </Title>
 
                 <div className="container">

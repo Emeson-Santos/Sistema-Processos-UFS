@@ -21,7 +21,7 @@ export default function Contato(){
             <Header/>
             <div className="content">
                 <Title name="Contatos">
-                    <FiMail size={23}/>
+                    <FiMail size={23} />
                 </Title>
                     <div className="container">
                         <div>

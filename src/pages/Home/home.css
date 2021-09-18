@@ -63,7 +63,7 @@
     width: 14rem;
     height: 14rem;
     padding-top: 10px;
-    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    border: 0.5rem solid rgba(0, 73, 132);
     border-radius: 50%;
     object-fit: scale-down;
 
@@ -76,7 +76,7 @@
     text-decoration: none;
   }
   .categorias a h4{
-    font-size: 23px;
+    font-size: 20px;
     color: #FFF;
     border: #000;    
     background-color: #004984;
@@ -85,6 +85,7 @@
     align-items: center;
     text-decoration: none;
   }
+ 
   .categorias a span{
       height: 2.5em;
       width: 2.5em;
@@ -93,7 +94,7 @@
       justify-content: center;
       padding: 1px;
       margin: 8px;
-      text-decoration: ;
+      text-decoration: none;
       /* border-radius: 50%;   
       background-color: #212529;
       vertical-align: middle; */

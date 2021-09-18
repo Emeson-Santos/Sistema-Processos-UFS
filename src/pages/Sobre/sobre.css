@@ -96,6 +96,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
+  color: #004984;
 }
 
 h1, .h1 {
@@ -127,10 +128,12 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
+  color: #004984;
 }
 @media (min-width: 1200px) {
   h4, .h4 {
     font-size: 1.5rem;
+    color: #004984;
   }
 }
 
@@ -1369,7 +1372,7 @@ progress {
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 25%;
   }
 
   .col-lg-5 {
@@ -7651,6 +7654,7 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+  color: #004984;
 }
 
 .text-decoration-none {
@@ -7749,7 +7753,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #004984 !important;
 }
 
 .text-black-50 {
@@ -11565,7 +11569,7 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #004984;
   border-radius: 100%;
   background-color: #ffc800;
 }
@@ -11596,7 +11600,7 @@ header.masthead .masthead-heading {
 }
 .timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
   margin-top: 0;
-  color: inherit;
+  color: #004984;
 }
 .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
   text-transform: none;
@@ -11684,7 +11688,7 @@ header.masthead .masthead-heading {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.5rem solid rgba(0, 73, 132);
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;

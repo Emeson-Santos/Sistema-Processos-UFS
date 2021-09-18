@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './dev.css';
 import Header from '../../components/Header';
 import Title from '../../components/Title';
@@ -34,7 +34,8 @@ export default function Desenvolvedores(){
 
                     <div className="text-center">
                             <h2 className="text-uppercase">Este é o Meu Time</h2>
-                            <h3 className="text-muted"><i>"Não há ninguém que ame a dor, que a busque e queira, simplesmente porque é dor…"</i></h3>
+                            <h3 className="text-muted"><i>"Uma mente que se abre a uma nova ideia, jamais voltará ao seu tamanho original." Albert Einstein.</i></h3>
+                            <h3><i></i></h3>
                     </div>
 
                     {/* agora clocar imagens nomes dos envolvidos no time e redes sociais */}
@@ -145,7 +146,7 @@ export default function Desenvolvedores(){
                             
                         </div>
                         <div className="rodape">
-                            <h4><p>"Aquele que ama ou exerce ou deseja a dor, pode ocasionalmente adquirir algum prazer na labuta. Para dar um exemplo trivial, qual de nós se submete ao laborioso exercício físico, exceto para obter alguma vantagem com isso." </p></h4>
+                            <h4><p>"É genial festejar o sucesso, mas é mais importante aprender com as lições do fracasso." Bill Gates.</p></h4>
                         </div>
 
                     </div>                    
