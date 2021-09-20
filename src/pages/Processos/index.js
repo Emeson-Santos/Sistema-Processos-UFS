@@ -33,21 +33,21 @@ export default function Processos() {
                 <div className="container dashboard">
 
                     <div className="lista-processos">
-                            
-                                <table>
-                                    <thead>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">HTML</th>
+                                    <th scope="col">BPMN</th>
+                                    <th scope="col">RESOLUÇÃO</th>
+                                    <th scope="col">MANUAL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {processos.map((processo) => {
+                                    return (
                                         <tr>
-                                            <th scope="col">Nome</th>
-                                            <th scope="col">HTML</th>
-                                            <th scope="col">BPMN</th>
-                                            <th scope="col">RESOLUÇÃO</th>
-                                            <th scope="col">MANUAL</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {processos.map((processo) => {
-                                            return(
-                                                <tr>
                                             <td data-label="Nome">{processo.nome}</td>
                                             <td data-label="HTML">
                                                 <a href={processo.html} target="_blank" rel="noreferrer" >
@@ -65,7 +65,7 @@ export default function Processos() {
                                                 </a>
                                             </td>
                                             <td data-label="Resolucao">
-                                                <a href={processo.resolucao} target="_blank"  rel="noreferrer" download={processo.resolucao}>
+                                                <a href={processo.resolucao} target="_blank" rel="noreferrer" download={processo.resolucao}>
                                                     <button className="action" style={{ backgroundColor: 'red' }} onClick={() => { }}>
                                                         <FiCoffee color='#FFF' size={30} />
                                                     </button>
@@ -75,20 +75,18 @@ export default function Processos() {
                                                 <a href={processo.manual} target="_blank" rel="noreferrer" download={processo.manual}>
                                                     <button className="action" style={{ backgroundColor: 'green' }} onClick={() => { }}>
                                                         <FaDigitalOcean color='#FFF' size={30} />
-                                                        
+
                                                     </button>
                                                 </a>
                                             </td>
                                         </tr>
-                                            )
-                                            
-                                        })}
-                                        
-                                    </tbody>
-                                </table>
+                                    )
 
-                            )
-                        
+                                })}
+
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
             </div>

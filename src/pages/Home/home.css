@@ -76,14 +76,18 @@
     text-decoration: none;
   }
   .categorias a h4{
+    width: 250px;
+    height: 50px;
     font-size: 20px;
+    font-weight: bold;
     color: #FFF;
-    border: #000;    
+    border: #000;
     background-color: #004984;
     transition: .2s;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    display: flex;  
   }
  
   .categorias a span{

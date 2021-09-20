@@ -47,7 +47,7 @@ export default function Desenvolvedores(){
                                 <img src={imgEmeson} alt="dev Emeson"/>
                                 {/* o nome do dev */}
                                 <h4>Emeson Santos</h4>
-                                <p className="text-muted">Front-End</p>
+                                <p className="text-muted">Desenvolvedor</p>
                                     <a target="_blank" rel="noreferrer" href="https://twitter.com/Emesoneso">
                                         <span>
                                             <FiTwitter size={20}/>
@@ -73,19 +73,19 @@ export default function Desenvolvedores(){
                                 <img src={imgPauloVitor} alt="dev Paulo Vitor"/>
                                 {/* o nome do dev */}
                                 <h4>Paulo Vitor dos Santos</h4>
-                                <p className="text-muted">Back-End</p>
+                                <p className="text-muted">Desenvolvedor</p>
                                 
-                                    <a target="_blank" rel="noreferrer" href="/#">
+                                    <a target="_blank" rel="noreferrer" href="https://twitter.com/vitinho_ribas">
                                         <span>
                                             <FiTwitter size={20}/>
                                         </span> 
                                     </a>
-                                    <a target="_blank" rel="noreferrer" href="/#">
+                                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pazhy">
                                         <span>
                                             <FiFacebook size={20}/>
                                         </span> 
                                     </a>                                     
-                                    <a target="_blank" rel="noreferrer" href="/#">
+                                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/paulo-vitor-dos-santos-felipe-8298a8167/">
                                         <span>
                                         <FiLinkedin size={20}/>
                                         </span> 
@@ -99,7 +99,7 @@ export default function Desenvolvedores(){
                                 <img src={imgDosea} alt="orientador Dosea"/>
                                 {/* o nome do dev */}
                                 <h4>Prof. Dr. Marcos Dósea</h4>
-                                <p className="text-muted">Oriêntador</p>
+                                <p className="text-muted">Orientador</p>
                                
                                     <a target="_blank" rel="noreferrer" href="https://twitter.com/marcosdosea">
                                         <span>
@@ -127,11 +127,11 @@ export default function Desenvolvedores(){
                                 <h4>Prof. Dr. Raphael Pereira</h4>
                                 <p className="text-muted">Orientador</p>
                                 
-                                    <a target="_blank" rel="noreferrer" href="/#">
+                                    {/* <a target="_blank" rel="noreferrer" href="/#">
                                         <span>
                                             <FiTwitter size={20}/>
                                         </span> 
-                                    </a>
+                                    </a> */}
                                     <a target="_blank" rel="noreferrer" href="https://www.facebook.com/raphaelcomputacao">
                                         <span>
                                             <FiFacebook size={20}/>

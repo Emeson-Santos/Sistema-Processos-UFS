@@ -60,12 +60,12 @@ export default function Sobre(){
                                 <h4>2020</h4>
                                 <h4 class="subheading">Expansão.</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">E para finalizar, esta aplicação web é uma melhoria construída em React que está mais amigável e facil de navegar. Porém continua com o mesmo objetivo de publicar não só os processos das chefias mas também foi criados modulos para outras categorias de processos.</p></div>
+                            <div class="timeline-body"><p class="text-muted">E para finalizar, esta aplicação web é uma melhoria construída em React que está mais amigável e facil de navegar. Porém continua com o mesmo objetivo de publicar não só os processos das chefias mas também foi criados modulos para outras categorias de processos futuramente.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <h4>
+                            <h4 className="ufs">
                                 UFS<br />
                                 Eu Faço Parte
                                 <br />
