@@ -28,9 +28,11 @@ export default function Email(){
                         <FiMail size={17}/>
                     </Title>
                     <div className="container-email-index">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Fale conosco!</h2>
-                        <h3 class="section-subheading text-muted">Responderemos assim que possível.</h3>
+                    <div className="grid-top">
+                        <div class="text-center">
+                            <h2 class="section-heading text-uppercase">Fale conosco!</h2>
+                            <h3 class="section-subheading text-muted">Responderemos assim que possível.</h3>
+                        </div>
                     </div>
                     <form onSubmit={enviarEmail}>
                         <div className="componet-border">

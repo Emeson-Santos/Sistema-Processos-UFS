@@ -23,7 +23,7 @@ export default function Contato() {
                 <Title name="Contatos">
                     <FiMail size={23} />
                 </Title>
-                <div className="container">
+                <div className="container-contatos">
                     <div>
                         <h2 className="text-uppercase">Olá! com quem deseja falar?</h2>
                         <h3 className="text-muted"><i>Podemos te ajudar em algo?</i></h3>

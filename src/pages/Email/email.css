@@ -14,6 +14,7 @@
   position: relative;
   padding-bottom: 130px;
   text-align: center;
+  overflow: hidden;
 }
 
 form {
@@ -24,13 +25,28 @@ form {
   margin-right: 0;
   margin-left: 0;
   /* border-color: 7px solid red; */
+  overflow: hidden;
   }
   .componet-border{
     width: 100%;
-    height: 400px;
+    height: 370px;
     border: solid 1px #004984;
     border-radius: 5px;
     background-color: #004984;
+    margin-top: 0;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .grid-top{
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 93px;
+    /* background-color: aqua; */
+
+    text-align: center !important;
+  color: #004984;
+  overflow: hidden;
   }
 
   .comp-lab-inp{
@@ -42,9 +58,9 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 55px;
     padding-bottom: 150px;
-   
+    overflow: hidden;
   }
   .comp-msn-textarea{
     width: 50%;
@@ -57,19 +73,21 @@ form {
     align-items: center;
     padding-top: 30px;
     padding-bottom: 50px;
+    overflow: hidden;
   }
   
   .all {
   display: block;
   margin: 10px 15px;
   width: 98%;
-  height: 100px;
+  /* height: 100px; */
   padding: 5px;
   margin: 10px;
   float: left;
   position: relative;
   /* background: yellow; */
   margin-bottom: -20px;
+  overflow: hidden;
   }
   
   label {
@@ -83,6 +101,7 @@ form {
   text-transform: capitalize;
   width: 345px;
   padding: 5px;
+  overflow: hidden;
   }
   /* label input{
     margin-left: 0;
@@ -100,14 +119,16 @@ form {
   width: 100%;
   height: 60px;
   border-radius: 5px;
+  overflow: hidden;
   }
   
   textarea {
   width: 100%;
-  height: 270px;
+  height: 240px;
   padding: 5px;
   resize: none;
   display: inline-block;
+  border-radius: 5px;
   } 
   
   .msn {
@@ -136,4 +157,97 @@ form {
   border-radius: 5px;
   font-size: 25px;
   font-weight: bold;
+  }
+
+  @media screen and (max-width: 480px){
+    .container-email-index{
+      /* background-color: black; */
+    }
+
+    input[type=submit] {
+      width: 200px;
+      height: 50px;
+      background: #004984;
+      border: 1px solid;
+      color: #fff;
+      cursor: pointer;
+      font: 13px Verdana, Roboto, Arial, Helvetica, sans-serfi;
+      margin: 10px 0 15px 15px;
+      padding: 5px 10px;
+      float: none;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      }
+
+      textarea {
+        width: 100%;
+        height: 200px;
+        padding: 5px;
+        resize: none;
+        display: inline-block;
+        border-radius: 5px;
+        } 
+
+        input, textarea {
+          background: #fff;
+          border: 1px solid #686868;
+          color: #4a4a4a;
+          font: 13px Verdana, Arial, Helvetica, sans-serfi;
+          padding: 0 5px;        
+          border-radius: 5px;
+          overflow: hidden;
+          }
+          input{
+            height: 40px;
+          }
+          label {
+            text-align: left;
+            font-size: 16px;
+            font-family: sans-serif, Roboto;
+            font-weight: bold;
+            color: #FFF;
+            display: block;
+            float: left;
+            text-transform: capitalize;
+            width: 345px;
+            padding: 5px;
+            overflow: hidden;
+            }
+
+            .comp-lab-inp{              
+              border: grey;            
+              float: left;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              padding-top: 20px;
+              padding-bottom: 100px;
+              overflow: hidden;
+            }
+            .comp-msn-textarea{            
+              float: right;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;              
+              padding-top: 15px;
+              padding-bottom: 50px;
+              overflow: hidden;
+            }
+            .componet-border{
+              width: 100%;
+              height: 285px;
+              border: solid 1px #004984;
+              border-radius: 5px;
+              background-color: #004984;
+              margin-top: 0;
+              overflow: hidden;
+              margin-top: 20px;
+            }
+            
+
+
   }

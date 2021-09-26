@@ -46,7 +46,7 @@ export default function Desenvolvedores(){
                                 {/* inserir a imagem */}
                                 <img src={imgEmeson} alt="dev Emeson"/>
                                 {/* o nome do dev */}
-                                <h4>Emeson Santos</h4>
+                                <h4>Emeson Santos de Oliveira</h4>
                                 <p className="text-muted">Desenvolvedor</p>
                                     <a target="_blank" rel="noreferrer" href="https://twitter.com/Emesoneso">
                                         <span>

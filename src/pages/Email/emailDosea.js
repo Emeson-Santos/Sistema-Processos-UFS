@@ -1,36 +1,38 @@
 import React from 'react';
 import { FiMail } from 'react-icons/fi';
- import Header from '../../components/Header';
+import Header from '../../components/Header';
 import Title from '../../components/Title';
 import emailjs from "emailjs-com";
 
 import './email.css';
 
 
-export default function Email(){   
+export default function Email() {
 
-  function enviarEmail(e){
-    e.preventDefault();
+    function enviarEmail(e) {
+        e.preventDefault();
 
-    emailjs.sendForm('gmailMessage', 'template_wd7rh8f', e.target, 'user_sk3NIy0ThixWDsn97hmrb')
-      .then((result) => {
-          alert("Mensagem enviada com sucesso! :) ");
-      }, (error) => {
-          alert(error.message);
-          e.target.reset();
-      });
-  }
-    return(
+        emailjs.sendForm('gmailMessage', 'template_wd7rh8f', e.target, 'user_sk3NIy0ThixWDsn97hmrb')
+            .then((result) => {
+                alert("Mensagem enviada com sucesso! :) ");
+            }, (error) => {
+                alert(error.message);
+                e.target.reset();
+            });
+    }
+    return (
         <div>
-            <Header/>
+            <Header />
             <div className="content">
-                    <Title name="Email">
-                        <FiMail size={17}/>
-                    </Title>
-                    <div className="container-email-index">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Fale conosco!</h2>
-                        <h3 class="section-subheading text-muted">Responderemos assim que possível.</h3>
+                <Title name="Email">
+                    <FiMail size={17} />
+                </Title>
+                <div className="container-email-index">
+                    <div className="grid-top">
+                        <div class="text-center">
+                            <h2 class="section-heading text-uppercase">Fale conosco!</h2>
+                            <h3 class="section-subheading text-muted">Responderemos assim que possível.</h3>
+                        </div>
                     </div>
                     <form onSubmit={enviarEmail}>
                         <div className="componet-border">
