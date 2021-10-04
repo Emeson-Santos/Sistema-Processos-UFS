@@ -15,6 +15,7 @@ export default function Email() {
         emailjs.sendForm('gmailMessage', 'template_wd7rh8f', e.target, 'user_sk3NIy0ThixWDsn97hmrb')
             .then((result) => {
                 alert("Mensagem enviada com sucesso! :) ");
+                e.target.reset();
             }, (error) => {
                 alert(error.message);
                 e.target.reset();
