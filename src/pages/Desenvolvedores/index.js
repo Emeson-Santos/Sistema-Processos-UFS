@@ -146,7 +146,7 @@ export default function Desenvolvedores(){
                             
                         </div>
                         <div className="rodape">
-                            <h4><p>"É genial festejar o sucesso, mas é mais importante aprender com as lições do fracasso." Bill Gates.</p></h4>
+                            <h3 className="text-muted"><i>"É genial festejar o sucesso, mas é mais importante aprender com as lições do fracasso." Bill Gates.</i></h3>
                         </div>
 
                     </div>                    
