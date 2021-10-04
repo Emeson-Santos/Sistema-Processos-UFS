@@ -13,6 +13,17 @@
 .title span{
     margin-left: 1em;
     font-size: 1.5em;
+    font-weight: bold;
     color: #004984;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+    .title span{
+        margin-left: 1em;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #004984;
+        text-transform: uppercase;
+    }
 }

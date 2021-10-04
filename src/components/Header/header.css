@@ -215,10 +215,11 @@
     .sidebar div img{
       display: block;      
       /* margin:auto; */
-      width: 80%;
-      height: 90px;    
+      width: 90%;
+      height: 60px;    
       object-fit: cover;
-      border-radius: 50%;
+      /* border-radius: 50%; */
+      contain: size;
     }
     .content{
       margin-left: 110px;
