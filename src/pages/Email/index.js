@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
 import './email.css';
 import { FiMail } from 'react-icons/fi';
 import Header from '../../components/Header';
@@ -39,18 +40,18 @@ export default function Email() {
                             <div className="comp-lab-inp">
                                 <span className="all">
                                     <label htmlFor="Nome">Nome: </label>
-                                    <input type="text" name="name" placeholder="Por favor, digite seu nome..." />
+                                    <input type="text" required="Por favor, digite seu nome." name="name" placeholder="Por favor, digite seu nome..." />
                                 </span>
 
                                 <span className="all">
                                     <label htmlFor="Email">Email: </label>
-                                    <input type="text" name="email" placeholder="Por favor, digite seu e-mail..." />
+                                    <input type="text" name="email" required="Por favor, digite seu e-mail" placeholder="Por favor, digite seu e-mail..." />
                                 </span>
                             </div>
                             <div className="comp-msn-textarea">
                                 <span className="msn">
                                     <label htmlFor="Mensagem">Mensagem: </label>
-                                    <textarea className="text-area" name="message" placeholder="Por favor, escreva algo..." cols="30" rows="10"></textarea>
+                                    <textarea className="text-area" name="message" required="Por favor, digite algo." placeholder="Por favor, escreva algo..." cols="30" rows="10"></textarea>
                                 </span>
 
                             </div>
